@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Microlite20 Character Generator II</string>
+    <string name="title_sheet_detail">Sheet Detail</string>
+    <string name="title_activity_choose_roll">ChooseRollActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_roll">RollActivity</string>
+
+    <string-array name="Classes">
+        <item>Fighter</item>
+        <item>Rogue</item>
+        <item>Mage</item>
+        <item>Cleric</item>
+    </string-array>
+    <string-array name="Races">
+        <item>Human</item>
+        <item>Elf</item>
+        <item>Dwarf</item>
+        <item>Halfling</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/combatMaxStat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which method are you using to determine your stats?"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roll 4d6 Drop Lowest"
+        android:onClick = "choose4d6"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roll 3d6"
+        android:onClick = "choose3d6"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Point Buy"
+        android:onClick = "choosePointBuy"
+        />
+
+</LinearLayout>
